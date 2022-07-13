@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "主页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+<<<<<<< HEAD
+    "myheader": "/components/myheader"
+=======
+    "myheader": "/components/myheader",
+<<<<<<< HEAD
+    "my-miuse": "/components/myMiuse"
+>>>>>>> 244335b7a0fa5b50f254862f24faf67025b97e77
+=======
+    "my-miuse": "/components/myMiuse",
+    "song-list": "/components/songList"
+>>>>>>> a6a9ad37890a7ab2a57a7334ed41247628f9bf53
+  }
+}

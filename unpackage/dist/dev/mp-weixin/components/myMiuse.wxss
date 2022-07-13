@@ -1,0 +1,9 @@
+.bj_music image {
+  width: 72rpx;
+  height: 72rpx;
+}
+.bj_music .musicStyle {
+  -webkit-animation: bjMusic 3s linear infinite;
+          animation: bjMusic 3s linear infinite;
+}
+

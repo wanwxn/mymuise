@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" class="myBack data-v-70637fa4" bindtap="__e"><image class="back data-v-70637fa4" src="../static/back.png" mode></image></view>

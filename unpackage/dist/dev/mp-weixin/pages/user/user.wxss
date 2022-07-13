@@ -1,0 +1,196 @@
+.user {
+  width: 100%;
+  height: 100%;
+  background: #e9e9e9;
+  overflow: hidden;
+}
+.user .collect {
+  width: 98%;
+  margin: 10px auto;
+  background: #fff;
+}
+.user .headerTop {
+  position: relative;
+  width: 95%;
+  height: 100px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.user .headerTop .headerTop-left {
+  width: 100%;
+  height: 50%;
+}
+.user .headerTop .headerTop-left ._img {
+  position: absolute;
+  left: 40%;
+  top: -20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.user .headerTop .headerTop-right {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.user .content {
+  width: 95%;
+  height: 200px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.user .content .content-top {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+.user .content .content-top .warp {
+  width: 25%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #a6a6a6;
+}
+.user .content .content-top .warp ._img {
+  width: 30px;
+  height: 30px;
+}
+.user .content .content-bottom {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+.user .content .content-bottom .imgg-left {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.user .content .content-bottom .imgg-right {
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.user .content .content-bottom .T {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user .Ilike {
+  margin: 10px auto;
+  width: 95%;
+  height: 60px;
+  border-radius: 10px;
+  background: #ffff;
+  display: flex;
+  align-items: center;
+}
+.user .Ilike .Ilikeimg {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+.user .Ilike .likeMusic {
+  display: flex;
+  flex-direction: column;
+}
+.user .Ilike .heartbeat {
+  margin-left: 30px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user .Ilike .heartbeat ._img {
+  width: 20px;
+  height: 20px;
+}
+.user .NewSong {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.user .NewSong .NewSongChil {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user .Song {
+  width: 95%;
+  margin: 10px auto;
+  background: #fff;
+  border-radius: 10px;
+}
+.user .Song .import {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.user .Song .import .importImg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.user .Song .SongTop {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user .Song .SongTop .slhView .slh {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.user .Song .music {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.user .Song .music .music-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user .Song .music .music-left ._img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.user .Song .music .music-right {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+

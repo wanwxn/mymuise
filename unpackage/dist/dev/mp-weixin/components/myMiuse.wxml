@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['bjMusicClick',['$event']]]]]}}" class="bj_music" bindtap="__e"><image class="{{[!musicShow?'musicStyle':'']}}" src="../static/1.png" mode="widthFix"></image></view>

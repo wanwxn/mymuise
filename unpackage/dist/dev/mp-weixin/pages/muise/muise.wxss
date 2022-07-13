@@ -1,0 +1,116 @@
+.biu {
+  position: relative;
+  width: 100%;
+}
+.headers {
+  line-height: 100rpx;
+  text-align: center;
+  color: #FFFFFF;
+}
+.muise {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 222;
+}
+.muisel {
+  height: 99vh;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+.muisel image {
+  height: 100%;
+  width: 100%;
+}
+@-webkit-keyframes rotate {
+0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes rotate {
+0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.bj_music .musicStyle {
+  -webkit-animation: bjMusic 3s linear infinite;
+          animation: bjMusic 3s linear infinite;
+}
+.content_muise {
+  padding-top: 40rpx;
+}
+.content_muise .img_box {
+  width: 400rpx;
+  height: 400rpx;
+  margin: 0 auto;
+  position: relative;
+  -webkit-animation: rotate 20s linear infinite;
+          animation: rotate 20s linear infinite;
+}
+.content_muise .img_box.pause {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.content_muise .img_box .samll_img {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  top: 50rpx;
+  left: 50rpx;
+}
+.content_muise .img_box .al_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.content_muise .img_box .bj_music {
+  position: absolute;
+  top: 150rpx;
+  left: 150rpx;
+  z-index: 9999;
+}
+.content_muise .img_box image {
+  width: 400rpx;
+  height: 400rpx;
+}
+.lyric-content {
+  margin-top: 44rpx;
+}
+.lyric-box {
+  height: 264rpx;
+  overflow: hidden;
+}
+.lyric-box-wrap {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  line-height: 88rpx;
+  color: #999;
+  text-align: center;
+  transition: 0.5s;
+}
+.lyric-box-wrap .active {
+  color: #fff;
+}
+.lyric-tip {
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  line-height: 32rpx;
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+}
+

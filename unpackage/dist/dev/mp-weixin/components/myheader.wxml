@@ -1,0 +1,1 @@
+<view class="myheader _div data-v-86a8a218"><image src="{{$root.m0}}" alt class="_img data-v-86a8a218"></image><input type="text" class="data-v-86a8a218"/><image src="{{$root.m1}}" alt class="_img data-v-86a8a218"></image></view>

@@ -1,0 +1,25 @@
+.myheader.data-v-86a8a218 {
+  width: 100%;
+  height: 80rpx;
+  padding: 5rpx;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.myheader ._img.data-v-86a8a218 {
+  width: 50rpx;
+  height: 50rpx;
+}
+.myheader input.data-v-86a8a218 {
+  border-radius: 50rpx;
+  outline: none;
+  border: none;
+  width: 75%;
+  padding-left: 20rpx;
+  font-size: 14rpx;
+  height: 90%;
+  background-color: #fff;
+  border: 1rpx solid #e9e9e9;
+}
+
