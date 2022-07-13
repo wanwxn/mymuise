@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000';
+const baseUrl = 'https://netease-cloud-music-api-six-ochre.vercel.app';
 const myc = (method, wxn) => {
 	return new Promise((resolve, reject) => {
 		uni.request({
